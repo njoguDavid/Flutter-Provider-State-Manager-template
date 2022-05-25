@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:FlutterArchitecture/provider/theme_provider.dart';
 import 'package:provider/provider.dart';
 class ColorResources {
-  static Color redgradient2 = Color(0xffFF4437);
-  static Color orangeTheme = Color(0xfff79f21);
+  static Color primaryColor = Color(0xff00d084);
+  static Color accentColor = Color(0xffff6900);
   static Color onBoardingBg = Color(0xff7f8f8);
   static Color containerColour= Color(0xFFFDE1D7);
 
@@ -31,7 +31,7 @@ class ColorResources {
     return Provider.of<ThemeProvider>(context).darkTheme ?Colors.white : Colors.white ;
   }
   static Color appbarColor(BuildContext context) {
-    return Provider.of<ThemeProvider>(context).darkTheme ?Color(0xFF414345)  : redgradient2;
+    return Provider.of<ThemeProvider>(context).darkTheme ?Color(0xFF414345)  : primaryColor;
   }
   static Color homeContainerBg(BuildContext context) {
     return Provider.of<ThemeProvider>(context).darkTheme ?Color(0xFF414345)  : containerColour;
@@ -47,7 +47,7 @@ class ColorResources {
   }
 
   static Color buttonColor(BuildContext context) {
-    return Provider.of<ThemeProvider>(context).darkTheme ?Color(0xFF414345)  : redgradient2;
+    return Provider.of<ThemeProvider>(context).darkTheme ?Color(0xFF414345)  : primaryColor;
   }
 
   static Color leadingColor(BuildContext context) {

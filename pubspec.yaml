@@ -55,6 +55,8 @@ dependencies:
   firebase_remote_config: ^0.10.0+2
   firebase_phone_auth_handler: ^0.0.7
 
+  pdfx: ^2.0.1+2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

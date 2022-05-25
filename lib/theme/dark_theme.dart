@@ -3,7 +3,7 @@ import 'package:FlutterArchitecture/util/color_resources.dart';
 
 ThemeData dark = ThemeData(
   fontFamily: 'Poppins',
-  primaryColor: ColorResources.redgradient2,
+  primaryColor: ColorResources.primaryColor,
   brightness: Brightness.dark,
   accentColor: Color(0xFF252525),
   hintColor: Color(0xFFc7c7c7),

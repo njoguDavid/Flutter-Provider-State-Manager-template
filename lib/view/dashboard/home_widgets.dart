@@ -30,7 +30,7 @@ Widget latestPosts(@required String title, String location, String wage,
                   borderRadius: BorderRadius.circular(4),
                 ),
                 child: Material(
-                  color: ColorResources.orangeTheme,
+                  color: ColorResources.accentColor,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(4),

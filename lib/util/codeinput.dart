@@ -196,7 +196,7 @@ abstract class CodeInputBuilders {
       totalRadius: totalRadius,
       emptyRadius: emptyRadius,
       filledRadius: filledRadius,
-      color: ColorResources.redgradient2,
+      color: ColorResources.primaryColor,
       textStyle: TextStyle(
           color: Colors.white, fontSize: 20.0, fontWeight: FontWeight.bold),
       border: null,

@@ -3,7 +3,7 @@ import 'package:FlutterArchitecture/util/color_resources.dart';
 
 ThemeData light = ThemeData(
   fontFamily: 'Poppins',
-  primaryColor: ColorResources.redgradient2,
+  primaryColor: ColorResources.primaryColor,
   brightness: Brightness.light,
   accentColor: Colors.white,
   hintColor: Color(0xFF9E9E9E),
