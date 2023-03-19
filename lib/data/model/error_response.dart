@@ -1,4 +1,3 @@
-/// errors : [{"code":"l_name","message":"The last name field is required."},{"code":"password","message":"The password field is required."}]
 
 class ErrorResponse {
   List<Errors> _errors;
@@ -29,8 +28,7 @@ class ErrorResponse {
 
 }
 
-/// code : "l_name"
-/// message : "The last name field is required."
+
 
 class Errors {
   String _code;

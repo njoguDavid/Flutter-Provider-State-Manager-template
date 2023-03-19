@@ -41,13 +41,6 @@ Future<Position> locateUser() async {
   //return Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high);
 }
 
-// getUserLocation() async {
-//   currentLocation = await locateUser();
-//   setState(() {
-//     _center = LatLng(currentLocation.latitude, currentLocation.longitude);
-//   });
-//   print('center $_center');
-// }
 
 filePermissions(BuildContext context, Function function)async{
   bool allowed=false;

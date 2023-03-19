@@ -69,7 +69,7 @@ class CodeInput extends StatefulWidget {
     ];
 
     if (keyboardType == TextInputType.number) {
-      formatters.add(WhitelistingTextInputFormatter(RegExp('^[0-9]*\$')));
+      formatters.add(FilteringTextInputFormatter(RegExp('^[0-9]*\$')));
     }
 
     return formatters;

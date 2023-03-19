@@ -91,7 +91,6 @@ class SplashScreenState extends State<SplashScreen> with SingleTickerProviderSta
 //'assets/images/applogo.png'
   void _navigateTo() async {
     // print("provider intro ${Provider.of<SplashProvider>(context).showIntro()}");
-    print("==> $isFirstTime");
     if (isFirstTime != null) {
       if (!isFirstTime) {
         Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (BuildContext context) => DashboardScreen()));

@@ -43,9 +43,5 @@ Future<dynamic>categoriesJson()async{
     print("data==>pp}");
     listCat.add(CategoriesModel.fromJson(d));
   }
-
-  // final listData = json.decode(jsondata) as List<dynamic>;
-  // listData.map((map) => CategoriesModel.fromJson(map)).toList();
-   print("data==>${listCat.length}");
 return listCat;
 }
